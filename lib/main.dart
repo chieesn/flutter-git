@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         //
         // Notice that the counter didn't reset back to zero; the application
         // state is not lost during the reload. To reset the state, use hot
-        // restart instead.
+        // restart instbead.
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
@@ -106,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              'You have pushed the button this many times (CHANGING ON LINUX):',
             ),
             Text(
               '$_counter',
